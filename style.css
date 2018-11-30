@@ -1,58 +1,30 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+p{
+  font-size: 60px;
+  text-align:center;
+  color:blue;
 }
-
-body {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+button{
+       border-style: solid;
+       border-color: black;
+       color: cream;
+       background-color: "#FFEAE5";
+       text-decoration: none;
+       font-size: 20px;
+       font-weight:bold;
+       cursor: pointer;
+       padding: 15px 32px;
+       text-align: center;
+       display: inline-block;
 }
-
-.calculator {
-  flex: 0 0 95%;
+#pictures div{
+            display: inline-block;
+            height: 100px;
+            width: 100px;
 }
-.screen {
-  width: 100%;
-  font-size: 7rem;
-  padding: 0.5rem;
-  background: rgb(41, 41, 56);
-  color: white;
-  border: none;
+body{
+     background-image: url("new.jpg");
+     background-color: #cccccc;
 }
-
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  transition: all 0.5s linear;
-}
-
-button {
-  flex: 0 0 25%;
-  border: 1px solid black;
-  padding: 0.25rem 0;
-  transition: all 2s ease;
-}
-button:hover {
-  background: blue;
-}
-.btn-yellow {
-  background: rgb(245, 146, 62);
-  color: white;
-}
-.btn-grey {
-  background: rgb(224, 224, 224);
-}
-.btn,
-.btn-equal,
-.btn-clear {
-  font-size: 4rem;
-}
-.btn-equal {
-  background: green;
-}
-.btn-clear {
-  background: red;
+div{
+    text-align: center;
 }
